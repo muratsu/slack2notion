@@ -1,0 +1,92 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Hi <@{user}>, welcome!* :wave: Slack2Notion allows you to easily add tasks to Notion within Slack. \n\nBefore adding tasks, make sure your Notion token and database is set correctly. If you need help? Feel free to send us a line at hello@slack2notion.com."
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Setup*"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "1. Your token is how we *connect your Notion account to Slack*. To find your token, you can use these <https://www.notion.so/Find-Your-Notion-Token-e6a6451402d24515a86f640c87ca7d15|instructions here>."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "❌Token_v2 is not set"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Set",
+					"emoji": true
+				},
+				"style": "danger",
+				"value": "set_token",
+				"action_id": "home_token_v2"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "2. Once token is set, *select a database* you would like your tasks to be sent. All you need to do is copy the link of that database and paste it here."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "❌ Database link is not set"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Connect",
+					"emoji": true
+				},
+				"style": "danger",
+				"value": "set_database",
+				"action_id": "home_database"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"dispatch_action": true,
+			"type": "input",
+			"element": {
+				"type": "plain_text_input",
+				"action_id": "home_task",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Enter the task name"
+				}
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "👇  Create a new task",
+				"emoji": true
+			}
+		}
+	]
+}

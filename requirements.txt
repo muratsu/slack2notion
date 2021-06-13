@@ -1,0 +1,6 @@
+Flask
+slackclient
+notion
+firebase-admin
+requests
+sentry-sdk[flask]

@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "slack2notion",
+    "private_key_id": "dc285a7e3cac345314feaafd7bc099c3626dcd48",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC6zpxjh2QZsbpr\n2iprX9cmOBFIk/j/92kR2PCGDuXdSawClVXXZ/zVa6wjOzGoMLDYuxrSPc2wr1aA\nNblm3hGJy9KoR/Ut+/lEPcBsJYl7dabw8GfKG3hWaso/08Jnpm840GnsUHs1IQ6X\nLY9keAZYi1j0yNPTB+BzRCoB2u+cca2prjM+13JY2YpcIimTW9MX3cLxig5i/Bw4\n3BcV2t6hCWNyJ4DxoqRT6K3VKO4n3YziVDaBzyWhuVaDqQaUANnHFW+y/obVDNa0\nzOk6OrzJZmmcJYzVHMrii69T4t6uAGvIFFNFVIwhyYnYBXRHT3S0xTT9XeEQqOgX\n2U4JQLqbAgMBAAECggEADJ8hGehv7vx/KAJZk1+qXb60DD9TN5gz1SzfM2+WQFlV\n8ea9Igy4nILl4ouBU2fWyw35RfM/Do0KPydiG30tmi3XUd9qxWyc7uttMOFoZJsS\naH0VxiYM/2m/uIhKPk6UfTY3sevOJ0zQe45sfdFOPHVN0VwwU7XYiHE2lWGBhwRZ\nrEj/HD7gT4mycrVlVQbUPgGB5joQma7q2HoBYkq6HSnxqZ0/+9Z91YDCtyq/endp\nb5vAE2tR+QWc0Z+d5gUX/gUTLEsY7BLY6rsQcseDX358KsrSZKlFQR0tAg06MBYX\nkBIK1q3cm+uKJdI/RFPgv9EzNbz6daT9L2/4t+yfgQKBgQDmRugSH/gQoIxe/7vg\n4YtNsH2xBo8stw95F0XwdD9XdPi7QtktsDINAdHy8bM/8ZLkeCtjHmIyz4bx1mpX\n+DYwvuQQ2xc44qj5LhXDXVQyW844p5znljMAtnnQ8scO9zBXxr940GFZGW1N9en1\ns5GGYsJnrFyKExspcbZCrK/S6wKBgQDPrJ8VBgNs6XFcmE3EvSMBijGX1IzfJG+6\nheb7mb0JYBggADFTbIqgVwbCwWFoiK7MFa69ssf7lsnCYSL1gmlqpOwn9OkVkYHf\nDcUSGX3jhNgJkWIwQqH9X3/S3HhMv1pjqdLzZAcg5Eabi10brp30lPZe1m3JiqbJ\nuX7YB2LrEQKBgQDJWGBcULWfHDIAcoz9IVijUllkav7PMzUFRPMzPwGPX8iIO/gX\nOcNZmijPysRXectdlzEglpV4JfqxBDCxwGbpkk9p6ZdRduYWElSXIMiYy6rx4KSR\n3cO0sNiseUrR7BLJ/Q63/UPRGyl2jDnISv1ISpv++DdlxzTttO6PN9z4hwKBgQCy\n33wmH4fTxz5dAtH5Iu+D5APTQsATcs7JWYwaKdEowhwFdCUINfUxJcQs+2NrJk9o\neUSJH/QgP0CIrCHwVON3d5Xw1IHukeXKuZGEhXBpB4MMuqxX5QyhsB/o/vyfHjI8\npYmNGhsJuZUXZHJN5ZknkSajiQ4HCeWe2qbma3ZIAQKBgQCr8duAN6di42PAFZTJ\nbBD85CTAUXv7XwMFKjxQSAAIMORbLP7m/W+mzg5n7H5q2UlwZa9LQxHWo2Lq/Yud\nhVdBJHTOmumFrMz121fVMv0jsVXVYURTmhjSFDJ0v67HuVzIv/ycvSC1cN2KJKKn\n6PmGp5sQS3SmNrnHstB7Yf/h/Q==\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-gr3lr@slack2notion.iam.gserviceaccount.com",
+    "client_id": "105687025360933487771",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-gr3lr%40slack2notion.iam.gserviceaccount.com"
+}

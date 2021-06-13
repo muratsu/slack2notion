@@ -1,0 +1,29 @@
+# cloudbuild.yaml
+steps:
+  # build & push the container image
+  - name: "gcr.io/kaniko-project/executor:latest"
+    args:
+      [
+        "--cache=true",
+        "--cache-ttl=48h",
+        "--destination=gcr.io/notion-app/slack2notion"
+      ]
+
+    # Deploy container image to Cloud Run
+  - name: "gcr.io/cloud-builders/gcloud"
+    args:
+      [
+        "beta",
+        "run",
+        "deploy",
+        "slack2notion",
+        "--image",
+        "gcr.io/notion-app/slack2notion",
+        "--region",
+        "us-central1",
+        "--allow-unauthenticated",
+        "--platform",
+        "managed",
+        "--set-env-vars",
+        'CLIENT_ID=$_CLIENT_ID,CLIENT_SECRET=$_CLIENT_SECRET,APP_ID=$_APP_ID,PROD_URL=$_PROD_URL'
+      ]

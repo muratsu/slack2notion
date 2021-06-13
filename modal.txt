@@ -1,0 +1,54 @@
+{
+	"type": "modal",
+	"title": {
+		"type": "plain_text",
+		"text": "Slack2Notion",
+		"emoji": true
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Submit",
+		"emoji": true
+	},
+	"close": {
+		"type": "plain_text",
+		"text": "Cancel",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "input",
+      "block_id": "token_v2",
+			"element": {
+				"type": "plain_text_input",
+        "action_id": "my_action",
+        "placeholder": {
+					"type": "plain_text",
+					"text": "Enter the token link here"
+				}
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Token v2",
+				"emoji": true
+			}
+		},
+    {
+			"type": "input",
+      "block_id": "database_link",
+			"element": {
+				"type": "plain_text_input",
+        "action_id": "my_action",
+        "placeholder": {
+					"type": "plain_text",
+					"text": "Enter the database link here"
+				}
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Database URL",
+				"emoji": true
+			}
+		}
+	]
+}
